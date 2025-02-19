@@ -1,7 +1,7 @@
 import './ShinyText.css';
 
 interface ShinyTextProps {
-    text: string;
+    text: any;
     disabled?: boolean;
     speed?: number;
     className?: string;
